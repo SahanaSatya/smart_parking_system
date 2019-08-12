@@ -35,7 +35,7 @@ DHT dht(DHTPIN, DHTTYPE);
 #define waterlog_led D7
 
 // PARAMETERS TO BE UPLOADED
-float h, t; // to read humidity and temperature as Celsius
+float h, t; //  to read humidity and temperature as Celsius
 int LDR = 0;
 String light_message;
 int smoke_value;
